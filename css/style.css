@@ -1,0 +1,191 @@
+.navbar{
+	max-width:100px;
+	align-content: flex-start;
+}
+
+.navbar a{
+	text-decoration:none;
+	font-family: "Google Sans",Roboto,Arial,sans-serif;
+	font-size: .875rem;
+	letter-spacing: .0107142857em;
+	font-weight: 500;
+	text-transform: none;
+	color: rgb(112, 117, 122)
+}
+
+.navbar div:hover{
+	background-color: #f1f3f4;
+}
+
+.nav-item {
+	align-items: center;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	line-height: initial;
+	min-height: 80px;
+	padding: 8px;
+	width: 100%;
+	outline: none;
+	border: 0;
+	background-color: transparent;
+	color: rgb(112, 117, 122);
+	fill: rgb(112, 117, 122);
+}
+
+.active .nav-item{
+	fill: #4285f4;
+	color: #4285f4;
+}
+
+#saved-btn{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.search-icon-wrap{
+	width: 30px;
+	padding: 6px;
+	margin: 5px;
+}
+
+.saved-icon{
+	height: 18px;
+	margin-right: 0;
+	padding: 0;
+	width: 18px;
+	fill:#1a73e8;
+}
+
+#left-panel{max-width: 1024px;}
+
+#banner{
+	height:190px;
+	background-image: url('../images/hawa-mahal.jpg');
+	background-size: 100%;
+	background-position-y: 55%;
+}
+
+#banner h1{
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 34px;
+	color: white;
+	font: 400 56px/64px "Google Sans Display",Roboto,Arial,sans-serif;
+	letter-spacing: normal;
+}
+
+#banner p{
+	color: white;
+	font: 400 14px/20px Roboto,Arial,sans-serif;
+	letter-spacing: .2px;
+}
+
+h2.section-title{
+	font: 400 24px/32px "Google Sans",Roboto,Arial,sans-serif;
+	letter-spacing: normal;
+	color: var( --travel-color-token-on-surface-emphasis );
+	margin-bottom:0px;
+}
+
+h3.section-subheading{
+	font: 400 12px/16px Roboto,Arial,sans-serif;
+letter-spacing: .3px;
+color:#70757a;
+padding-top: 4px;
+margin: 0;
+padding-right: 54px;
+}
+
+#top-sights{
+	font: 400 16px/20px "Google Sans",Roboto,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: .1px;
+}
+
+#top-sights .card{
+	/* width: calc(100%/3 - 16px) !important; */
+	margin:8px;
+	position: relative;
+}
+
+#top-sights .card .card-img-top{
+	/* max-height:150px; */
+	aspect-ratio: 1.5;
+}
+
+#top-sights .card .bookmark{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #00000065;
+	position: absolute;
+	top: 0%;
+	right: 0;
+	margin: 6px;
+	/* transform: translate(-50%,-50%); */
+}
+
+.card .bookmark svg{
+	fill:white;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+
+#top-sights .card .card-title{
+	font: 400 14px/20px Roboto,Arial,sans-serif;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	white-space: normal;
+	max-height: 60px;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom:0px;
+}
+
+.rating-wrap{
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+.rating-star-wrap{
+	display:inline-block;
+	fill: #fbbc04;
+}
+
+.rating-star-icon{
+	width:7px;
+}
+
+.rating, .rating-count{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: .2px;
+}
+
+.see-all-top-sights-btn{
+	position: relative;
+	width:50%;
+}
+
+.see-all-top-sights-btn .icon{
+	position: absolute;
+	left:10px;
+	fill: #0d6efd;
+	top:8px;
+}
+
+.see-all-top-sights-btn:hover .icon{
+	fill: #ffffff;
+}
