@@ -272,4 +272,5 @@ padding-right: 54px;
 #article-carousel{
 	display: flex;
 	gap: 10px;
+	overflow: scroll;
 }
